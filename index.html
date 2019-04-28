@@ -4,9 +4,14 @@
 <head>
 
   <meta charset="utf-8">
+
+  <!-- initial-scale=1 is 1 dips to 1 csspixel
+  what does shrink-to-fit=no?
+  https://maurice-web.de/shrink-to-fitno-ergaenzung-bei-der-viewport-meta-angabe/
+  -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="Resume and Portfolio">
+  <meta name="author" content="Marc Kroll">
 
   <title>CV Marc Kroll</title>
 
@@ -21,6 +26,10 @@
   <!-- Custom styles for this template -->
   <link href="css/resume.min.css" rel="stylesheet">
 
+  <!-- media stylesheet -->
+  <!-- <link rel="stylesheet" href="css/media_test.css">
+  <link rel="stylesheet" media="screen and (max-width:600px)" href="css/over500.css"> -->
+  <!-- Idea - build in a media query easteregg: media="screen and ((min-width:600px) and (max-width:610px)) -->
 </head>
 
 <body id="page-top">
@@ -32,7 +41,8 @@
         <img class="img-fluid mb-3" src="img/profile_m.png" alt="">
       </span>
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -47,20 +57,23 @@
           <a class="nav-link js-scroll-trigger" href="#education">Education</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+        </li>
+        <!--  <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
         </li>
       </ul>
     </div>
   </nav>
 
   <div class="container-fluid p-0">
-<!-- First Impression - about-->
+    <!-- First Impression - about-->
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div class="w-100">
         <h1 class="mb-0">Kroll
@@ -69,12 +82,15 @@
         <div class="subheading mb-5">Vienna · Austria · Media and Human-Centered Computing ·
           <a href="mailto:e1302580@student.tuwien.ac.at">e1302580@student.tuwien.ac.at</a>
         </div>
-        
-        <p class="lead mb-5">I work at the intersection of strategy, creativity, technology and experience to support clients on this wonderful, never ending digital reinventing journey. Connecting technology and services in a smart way is what I'm all about. <br> <br> <b>Keep it simple – Make it straight.</b></p>
-         <div class = "mb-5">
-          <iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/100776471&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+
+        <p class="lead mb-5">I work at the intersection of strategy, creativity, technology and experience to support
+          clients on this wonderful, never ending digital reinventing journey. Connecting technology and services in a
+          smart way is what I'm all about. <br> <br> <b>Keep it simple – Make it straight.</b></p>
+        <div class="mb-5">
+          <iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/100776471&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
         </div>
-        
+
         <div class="social-icons">
           <a target="blank" href="https://www.linkedin.com/in/marc-k-23b3b3164/">
             <i class="fab fa-linkedin-in"></i>
@@ -82,7 +98,7 @@
           <a target="blank" href="https://github.com/1302580MK">
             <i class="fab fa-github"></i>
           </a>
-         <!--  <a href="#">
+          <!--  <a href="#">
             <i class="fab fa-twitter"></i>
           </a>
           <a href="#">
@@ -98,47 +114,67 @@
       <div class="w-100">
         <h2 class="mb-5">Experience</h2>
 
-  <!-- Job 1-->
+        <!-- Job 1-->
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Digital Strategy &amp; AI Intern</h3>
             <div class="subheading mb-3">IBM</div>
-            <p>As Intern at IBM I learned a lot about digital strategy, rapid prototyping and start up initiatives. During the 6 months I utilized the IBM Cloud for a variety of projects to create prototypes and hold workshops about Watson Assistant, Watson Visual Recognition as well as IoT devices like the Raspberry Pi or the humanoid robot NAO. During public as well as internal events I got the chance to proudly demonstrate the projects I worked on. Further tasks and additional information is available in my Internship Certificate which can be found here: <a target="blank" href="https://www.ibm.com">IBM Internship Certificate</a></p>
+            <p>As Intern at IBM I learned a lot about digital strategy, rapid prototyping and start up initiatives.
+              During the 6 months I utilized the IBM Cloud for a variety of projects to create prototypes and hold
+              workshops about Watson Assistant, Watson Visual Recognition as well as IoT devices like the Raspberry Pi
+              or the humanoid robot NAO. During public as well as internal events I got the chance to proudly
+              demonstrate the projects I worked on. Further tasks and additional information is available in my
+              Internship Certificate which can be found here: <a target="blank" href="https://www.ibm.com">IBM
+                Internship Certificate</a></p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">August 2018 - January 2019</span>
           </div>
         </div>
- <!-- Job 2-->
+        <!-- Job 2-->
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">VR &amp; AR Intern</h3>
             <div class="subheading mb-3">Interactive Media Systems Group · TU Vienna </div>
             <p>
-              In order for AR to enhance user experiences by superimposing information on workers’ real environment, I was part of the team, which is studying interfaces, which help to complete given tasks effectively and support better user experiences. Therefore, I created and tested 3 different interaction menus (2D HUD, 3D on Controller, 3D in worldspace) for the HTC Vive, the Oculus Rift as well as the DAQRI. More information about the project can be found here: <a target="blank" href="https://www.ims.tuwien.ac.at/topics/586">IMS TU Wien</a> 
-              </p>
+              In order for AR to enhance user experiences by superimposing information on workers’ real environment, I
+              was part of the team, which is studying interfaces, which help to complete given tasks effectively and
+              support better user experiences. Therefore, I created and tested 3 different interaction menus (2D HUD, 3D
+              on Controller, 3D in worldspace) for the HTC Vive, the Oculus Rift as well as the DAQRI. More information
+              about the project can be found here: <a target="blank" href="https://www.ims.tuwien.ac.at/topics/586">IMS
+                TU Wien</a>
+            </p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">February 2018 - July 2018</span>
           </div>
         </div>
-<!-- Job 3-->
+        <!-- Job 3-->
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">IT Support</h3>
             <div class="subheading mb-3">Klima- und Energiefonds</div>
-            <p>During my internship as IT Support at Klima- &amp; Energiefonds I was responsible for cleaning up and maintaining the internal database. Additionally, I did some administrative tasks and supported the marketing team in their daily business. For more information about the Klima- &amp; Energiefonds visit: <a target="blank" href="https://www.klimafonds.gv.at/">Klima- &amp; Energiefonds</a></p>
+            <p>During my internship as IT Support at Klima- &amp; Energiefonds I was responsible for cleaning up and
+              maintaining the internal database. Additionally, I did some administrative tasks and supported the
+              marketing team in their daily business. For more information about the Klima- &amp; Energiefonds visit: <a
+                target="blank" href="https://www.klimafonds.gv.at/">Klima- &amp; Energiefonds</a></p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">Spetember 2017</span>
           </div>
         </div>
-<!-- Job 4-->
+        <!-- Job 4-->
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
           <div class="resume-content">
             <h3 class="mb-0">Head of Student Representatives</h3>
             <div class="subheading mb-3">Faculty of Computer Science - University Vienna</div>
-            <p>As the elected Head of Student Representatives, I had the main responsibility during organizing events for students, dealing with financials and university politics. I operated as the bridge between students and their university related needs and problems. My goal as student representative was to keep the students engaged and motivated and to support them during their studies in each possible state through specifically organized exam preparations or individual meetings. Furthermore, I succeeded in breaking the ice between the relationship of the institute to the student representatives. Additionally, I had the honor to held the opening speak each term which I’m definitely proud of.</p>
+            <p>As the elected Head of Student Representatives, I had the main responsibility during organizing events
+              for students, dealing with financials and university politics. I operated as the bridge between students
+              and their university related needs and problems. My goal as student representative was to keep the
+              students engaged and motivated and to support them during their studies in each possible state through
+              specifically organized exam preparations or individual meetings. Furthermore, I succeeded in breaking the
+              ice between the relationship of the institute to the student representatives. Additionally, I had the
+              honor to held the opening speak each term which I’m definitely proud of.</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">July 2015 - February 2017</span>
@@ -196,117 +232,216 @@
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
-      <div class="w-100">
-        <h2 class="mb-5">Skills</h2>
-
-        <div class="subheading mb-3">Stuff I worked with where fontawesome has Icons</div>
-        <ul class="list-inline dev-icons">
-          <li class="list-inline-item">
-            <i class="fab fa-html5"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-css3-alt"></i>
-          </li>
-           <li class="list-inline-item">
-            <i class="fab fa-java"></i>
-         
-
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-raspberry-pi"></i>
-          <!-- </li>
-          <li class="list-inline-item">
-            <i class="fab fa-react"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-sass"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-less"></i>
-          </li>
-         --> 
-          <li class="list-inline-item">
-            <i class="fab fa-node-js"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-wordpress"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-adobe"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-python"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-npm"></i>
-          </li>
-        </ul>
-
-        <div class="subheading mb-3">Workflow</div>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Mobile-First, Responsive Design</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Cross Browser Testing &amp; Debugging</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Cross Functional Teams</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Agile Development &amp; Scrum</li>
-        </ul>
-      </div>
-    </section>
-
-    <hr class="m-0">
-
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
       <div class="w-100">
         <h2 class="mb-5">Interests</h2>
-        <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-        <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+        <img class="img-responsive" src="img/wordcloud9.png" alt="wordcloud">
       </div>
     </section>
+
 
     <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
       <div class="w-100">
-        <h2 class="mb-5">Awards &amp; Certifications</h2>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Google Analytics Certified Developer</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Mobile Web Specialist - Google Certification</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            2<sup>nd</sup>
-            Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - James Buchanan High School - Hackathon 2006</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            3<sup>rd</sup>
-            Place - James Buchanan High School - Hackathon 2005</li>
-        </ul>
+        <h2 class="mb-5">Projects</h2>
+        <div class="subheading mb-5">Have a look at some of my projects</div>
+        <div class="album py-5">
+          <div class="container">
+
+            <div class="card-deck">
+
+              <!-- CARD - Tetris-->
+              <div class="col-md-6">
+                <div class="card mb-5">
+                  <iframe class="card-img-top" width="100%" height="315"
+                    src="https://www.youtube.com/embed/9z_98qjIDEo?rel=0&amp;showinfo=0" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                  <div class="card-body">
+                    <h5 class="card-title">Kinect Tetris</h5>
+                    <p class="card-text">During this project we used the Microsoft Kinect to alter the experience of
+                      playing Tetris. The position of a brick is controlled by the head position of the player. Bricks
+                      can
+                      be rotated with your hand and dropped with stomping motion. </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- CARD - RFID Arduino-->
+              <div class="col-md-6">
+                <div class="card mb-5">
+                  <iframe class="card-img-top" width="100%" height="315"
+                    src="https://www.youtube.com/embed/7-frwUaJIjM?rel=0&amp;showinfo=0" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                  <div class="card-body">
+                    <h5 class="card-title">Arduino meets Unity</h5>
+                    <p class="card-text">In this project we used RFID Tags, a RFID reader and an Arduino to generate
+                      objects in Unity, a rendering engine for 3D and 2D games. Unity made it easy for us to give the
+                      spawned objects some physics properties and to interact and control them. With the blue RFID tags
+                      obstacles can be spawned and with the red RFID tag a moveable player can be created in the scene.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+
+              <!-- CARD - Pink Fluffy Unicorn-->
+              <div class="col-md-6">
+                <div class="card mb-5">
+                  <iframe class="card-img-top" width="100%" height="315"
+                    src="https://www.youtube.com/embed/RTa5r6j1Rms?rel=0&amp;showinfo=0" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                  <div class="card-body">
+                    <div class="card-body">
+                      <h5 class="card-title">Pink fluffy speaking unicorn for kids</h5>
+                      <p class="card-text">One of my personal favorites – the pink speaking unicorn project. Inside of
+                        the
+                        unicorn runs an Arduino with a radio module to send and receive data from our simple app. The
+                        necklace of the unicorn is a RFID reader and inside the laser cut fruits are RFID tags which
+                        resemble the different fruits in our app. Currently our speaking plush toy is used for therapy
+                        purposes with kids with mental retardation.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- CARD - Whack a Mole - Play-Doh-->
+              <div class="col-md-6">
+                <div class="card mb-5">
+                  <iframe class="card-img-top" width="100%" height="315"
+                    src="https://www.youtube.com/embed/PJYUBWMFzc4?rel=0&amp;showinfo=0" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                  <div class="card-body">
+                    <div class="card-body">
+                      <h5 class="card-title">Whack-A-Mole with Play-Doh</h5>
+                      <p class="card-text">With the UBI UBI, a self-made version of the Makey Makey by our supervisor,
+                        we
+                        merged physical input with a digital game. In this case a clone of the well-known Whack-A-Mole
+                        game was created. You can imagine the UBI UBI as a kind of keyboard which sends signals based on
+                        conductivity.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <!-- CARD - Vive meets Leap and Arduino-->
+              <div class="col-md-6">
+                <div class="card mb-5">
+                  <iframe class="card-img-top" width="100%" height="315"
+                    src="https://www.youtube.com/embed/qJ0Mv4CYP6w?rel=0&amp;showinfo=0" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                  <div class="card-body">
+                    <div class="card-body">
+                      <h5 class="card-title">HTC Vive meets Leap Motion and Arduino</h5>
+                      <p class="card-text">In this project we created a 3D VR multiplayer game for the HTC Vive and the
+                        Leap Motion in Unity. Additionally, we used our knowledge from working with RFID tags to include
+                        a
+                        mechanism of spawning objects in the game world using various tags. The Leap and Vive players
+                        are
+                        moved via gesture controls.
+                        Our game was honored with the <strong>best project award</strong> out of 16 other projects.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- CARD - eTextiles-->
+              <div class="col-md-6">
+                <div class="card mb-5">
+                  <iframe class="card-img-top" width="100%" height="315"
+                    src="https://www.youtube.com/embed/HHlgVAXDfKs?rel=0&amp;showinfo=0" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                  <div class="card-body">
+                    <div class="card-body">
+                      <h5 class="card-title">eTextiles playing music</h5>
+                      <p class="card-text">During this project we worked with conductive textiles and build a simple
+                        prototype of a wristband or shirt sleeve which can play music based on which button is closed. I
+                        would like to point out that all of the material is still flexible and comfortably wearable.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- CARD - Cinema Seat - Low fi-->
+              <div class="col-md-6">
+                <div class="card mb-5">
+                  <iframe class="card-img-top" width="100%" height="315"
+                    src="https://www.youtube.com/embed/JOmUQcwQv7w?rel=0&amp;showinfo=0" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                  <div class="card-body">
+                    <div class="card-body">
+                      <h5 class="card-title">VIP cinema seats – low fi prototype</h5>
+                      <p class="card-text">Based on a card game which our class created in advance for “idea
+                        generation”,
+                        where you draw 4 random cards we came up with the idea of a VIP cinema seat. Our cards were:
+                        Location-Card: Cinema, Device-Card: Arduino, Input-Card: Button, Transmitting-Card: Radio
+                        Module.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <!-- CARD - Digiboard-->
+              <div class="col-md-6">
+                <div class="card mb-5">
+                  <iframe class="card-img-top" width="100%" height="315"
+                    src="https://www.youtube.com/embed/4SWvNboUGLo?rel=0&amp;showinfo=0" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                  <div class="card-body">
+                    <div class="card-body">
+                      <h5 class="card-title">Digiboard – the digital blackboard</h5>
+                      <p class="card-text">Digiboard is our idea on how a digital blackboard could look like. We think
+                        that with our solution of a blackboard the neighborhood community gets the possibility to be
+                        connected through sharing activities and food. We think that Digiboard is also beneficial for
+                        announcements from the property management which can save them time, paper, and CO2 emission
+                        through simply posting something on Digiboard.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- CARD - IoT Door Alarm-->
+              <div class="col-md-6">
+                <div class="card mb-5">
+                  <iframe class="card-img-top" width="100%" height="315"
+                    src="https://www.youtube.com/embed/mt98LYFZR9A?rel=0&amp;showinfo=0" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                  <div class="card-body">
+                    <div class="card-body">
+                      <h5 class="card-title">A Tweeting door – an IoT alarm system</h5>
+                      <p class="card-text">In this project we used an ultra-sonic sensor to monitor if a door gets
+                        opened.
+                        If the distance from the sensor to the door changes, we send a signal to an Arduino connected to
+                        a
+                        laptop which will create a new twitter post indicating the time of opening or closing of the
+                        door.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-
   </div>
 
   <!-- Bootstrap core JavaScript -->

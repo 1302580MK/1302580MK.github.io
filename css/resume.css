@@ -47,6 +47,7 @@ p.lead {
   font-weight: 400;
 }
 
+/* class attribute selector*/
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
@@ -83,6 +84,7 @@ p.lead {
   color: #BD5D38;
 }
 
+/*id attrivute selector*/
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;

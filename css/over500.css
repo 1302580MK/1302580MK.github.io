@@ -1,0 +1,8 @@
+body{
+    background-color: blue;
+}
+
+.test-flex{
+    display:flex;
+    flex-wrap: wrap;
+}
