@@ -1,0 +1,72 @@
+3	User
+1	Critical-thinking
+1	Self-development
+1	Professionalism
+1	Self-motivation
+1	Self-management
+1	Human-Computer
+1	Responsibility
+1	Communication
+1	Presentation
+1	Adaptability
+1	Organization
+1	Prototyping
+1	Interaction
+1	Observation
+1	Mindfulness
+1	Flexibility
+1	Hardworking
+1	Experience
+1	Travelling
+1	Psychology
+1	Creativity
+1	Usability
+1	Interface
+1	Augmented
+1	Photoshop
+1	Raspberry
+1	Marketing
+1	Integrity
+1	Attention	Detail
+1	Initative
+1	Exploring
+1	Research
+1	Coaching
+1	Analysis
+1	Employer
+1	Chatbots
+1	Internet
+1	Critical
+1	Services
+1	Teamwork
+1	Positive	Attitude
+1	Computer	Skills
+1	Research
+1	Mobility
+1	Reality
+1	Arduino
+1	Virtual
+1	Testing
+1	Quality
+1	Reading
+1	Empathy
+1	Design
+1	Things
+1	Office
+1	Python
+1	Watson
+1	Robots
+1	Public	Speaking
+1	Detail
+1	Design
+1	Adobe
+1	Magic
+1	Cloud
+1	Rapid
+1	Smart
+1	Solar	Energy
+1	Drive
+1	City
+1	Time	Management
+1	IoT
+1	HCI
