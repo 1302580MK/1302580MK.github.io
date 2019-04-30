@@ -15,19 +15,15 @@
 1	Observation
 1	Mindfulness
 1	Flexibility
-1	Hardworking
 1	Experience
 1	Travelling
 1	Psychology
 1	Creativity
 1	Usability
-1	Interface
-1	Augmented
+1	Interfaces
 1	Photoshop
 1	Raspberry
 1	Marketing
-1	Integrity
-1	Attention	Detail
 1	Initative
 1	Exploring
 1	Research
@@ -39,9 +35,9 @@
 1	Critical
 1	Services
 1	Teamwork
-1	Positive	Attitude
+1	Positive
+1	Attitude
 1	Computer	Skills
-1	Research
 1	Mobility
 1	Reality
 1	Arduino
@@ -57,7 +53,7 @@
 1	Watson
 1	Robots
 1	Public	Speaking
-1	Detail
+1	Details
 1	Design
 1	Adobe
 1	Magic
