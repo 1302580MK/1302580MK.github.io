@@ -24,6 +24,14 @@
 
   <!-- media query workaround for responsive design-->
   <style>
+.image_render{
+                   image-rendering: -moz-crisp-edges;         /* Firefox */
+                   image-rendering:   -o-crisp-edges;         /* Opera */
+                   image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+                   image-rendering: auto;
+                   -ms-interpolation-mode: nearest-neighbor;  /* IE */
+}
+
 @media (min-width:1260px){
   .rli{
 
@@ -33,7 +41,7 @@ float:left;
   }
 
  .rul{
-  list-style: square inside;
+  list-style: disc;
   color:#868e96
  }
     }
@@ -50,7 +58,7 @@ float:left;
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">Marc Kroll</span>
       <span class="d-none d-lg-block">
-        <img class="img-fluid mb-3" src="img/profile_m.png" alt="">
+        <img class="img-fluid mb-3 image_render" src="img/profile_marc.png" alt="profilepicture">
       </span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -94,8 +102,9 @@ float:left;
           clients on this wonderful, never ending digital reinventing journey. Connecting technology and services in a
           smart way is what I'm all about. <br> <br> <b>Keep it simple – Make it straight.</b></p>
         <div class="mb-5">
-          <iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/100776471&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+
+            <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/615155988%3Fsecret_token%3Ds-vepT5&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+
         </div>
         <div class="subheading mb-3">Skills Overview  </div>
         <button type="button" class="btn btn-primary btn-sm mb-3" disabled
@@ -156,8 +165,8 @@ float:left;
           <div class="resume-content">
             <h3 class="mb-0">Digital Strategy &amp; AI Intern</h3>
             <div class="subheading mb-3">IBM</div>
-            <p>As Intern at IBM I learned a lot about digital strategy, rapid prototyping and start up initiatives.
-              During the 6 months I utilized the IBM Cloud for a variety of projects to create prototypes and hold
+            <p>As an i  ntern at IBM I learned a lot about digital strategy, rapid prototyping and start-up initiatives.
+              During the 6 month internship I utilized the IBM Cloud for a variety of projects to create prototypes and hold
               workshops about Watson Assistant, Watson Visual Recognition as well as IoT devices like the Raspberry Pi
               or the humanoid robot NAO. During public as well as internal events I got the chance to proudly
               demonstrate the projects I worked on. Further tasks and additional information is available in my
@@ -176,11 +185,11 @@ float:left;
             <h3 class="mb-0">VR &amp; AR Intern</h3>
             <div class="subheading mb-3">Interactive Media Systems Group · TU Vienna </div>
             <p>
-              In order for AR to enhance user experiences by superimposing information on workers’ real environment, I
-              was part of the team, which is studying interfaces, which help to complete given tasks effectively and
-              support better user experiences. Therefore, I created and tested 3 different interaction menus (2D HUD, 3D
-              on Controller, 3D in worldspace) for the HTC Vive, the Oculus Rift as well as the DAQRI. More information
-              about the project can be found here: <a target="blank" href="https://www.ims.tuwien.ac.at/topics/586">IMS
+              In order for AR to enhance user experiences by superimposing information on workers real environment, I
+              was part of a team, which was specialized in studying interfaces that help to complete given tasks effectively and
+              support a better user experience. Therefore, I created and tested three different interaction menus (2D HUD, 3D
+              on Controller, 3D in worldspace) for the HTC Vive, the Oculus Rift as well as the DAQRI. More detailed information
+              about this project can be found here: <a target="blank" href="https://www.ims.tuwien.ac.at/topics/586">IMS
                 TU Wien</a>
             </p>
           </div>
@@ -194,8 +203,8 @@ float:left;
           <div class="resume-content">
             <h3 class="mb-0">IT Support</h3>
             <div class="subheading mb-3">Klima- und Energiefonds</div>
-            <p>During my internship as IT Support at Klima- &amp; Energiefonds I was responsible for cleaning up and
-              maintaining the internal database. Additionally, I did some administrative tasks and supported the
+            <p>During my internship as an IT Support at Klima- &amp; Energiefonds I was responsible for cleaning up and
+              maintaining the internal database. Additionally, I had some administrative tasks and supported the
               marketing team in their daily business. For more information about the Klima- &amp; Energiefonds visit: <a
                 target="blank" href="https://www.klimafonds.gv.at/">Klima- &amp; Energiefonds</a></p>
           </div>
@@ -209,13 +218,13 @@ float:left;
           <div class="resume-content">
             <h3 class="mb-0">Head of Student Representatives</h3>
             <div class="subheading mb-3">Faculty of Computer Science - University Vienna</div>
-            <p>As the elected Head of Student Representatives, I had the main responsibility during organizing events
+            <p>As the elected Head of Student Representatives, I had the main responsibility when organizing events
               for students, dealing with financials and university politics. I operated as the bridge between students
-              and their university related needs and problems. My goal as student representative was to keep the
-              students engaged and motivated and to support them during their studies in each possible state through
+              and their university related needs and problems. My main goal as student representative was to keep the
+              students engaged and motivated and to support them during their studies in every possible way, for example with 
               specifically organized exam preparations or individual meetings. Furthermore, I succeeded in breaking the
-              ice between the relationship of the institute to the student representatives. Additionally, I had the
-              honor to held the opening speak each term which I’m definitely proud of.</p>
+              ice between the institutre an dthe student representatives and in creating a respectful relationship between the two sides.
+              Additionally, I had the  honour to hold the opening speech each term, which is something I'm definitely proud of.</p>
           </div>
 
         </div>
@@ -329,7 +338,7 @@ float:left;
       <div class="w-100">
         <h2 class="mb-3">Interests</h2>
         <div class="subheading mb-3">Have a look at my Buzzword Cloud</div>
-        <img class="img-fluid" src="img/wordcloud22.png" alt="wordcloud">
+        <img class="img-fluid image_render" src="img/wordcloud23_s.png" alt="wordcloud">
       </div>
     </section>
 
@@ -391,10 +400,9 @@ float:left;
                       <h5 class="card-title">Pink fluffy speaking unicorn for kids</h5>
                       <p class="card-text">One of my personal favorites – the pink speaking unicorn project. Inside of
                         the
-                        unicorn runs an Arduino with a radio module to send and receive data from our simple app. The
-                        necklace of the unicorn is a RFID reader and inside the laser cut fruits are RFID tags which
-                        resemble the different fruits in our app. Currently our speaking plush toy is used for therapy
-                        purposes with kids with mental retardation.
+                        unicorn runs an Arduino with a radio module to send and receive data from our basic app. The
+                        necklace of the unicorn is a RFID reader and inside the laser-cut fruits are RFID tags which
+                        represent the different fruits in our app. Currently our speaking plush toy is in therapy for kids with mental retardation.
                       </p>
                     </div>
                   </div>
@@ -456,8 +464,8 @@ float:left;
                   <div class="card-body">
                     <div class="card-body">
                       <h5 class="card-title">e-Textiles playing music</h5>
-                      <p class="card-text">During this project we worked with conductive textiles and build a simple
-                        prototype of a wristband or shirt sleeve which can play music based on which button is closed. I
+                      <p class="card-text">During this project we worked with conductive textiles and built a simple
+                        prototype of a wristband or shirt sleeve which can play music - based on which button is closed. I
                         would like to point out that all of the material is still flexible and comfortably wearable.
                       </p>
                     </div>
@@ -477,7 +485,7 @@ float:left;
                       <h5 class="card-title">VIP cinema seats – low fi prototype</h5>
                       <p class="card-text">Based on a card game which our class created in advance for “idea
                         generation”,
-                        where you draw 4 random cards we came up with the idea of a VIP cinema seat. Our cards were:
+                        where you draw 4 random cards, we came up with the idea of a VIP cinema seat. Our cards were:
                         Location-Card: Cinema, Device-Card: Arduino, Input-Card: Button, Transmitting-Card: Radio
                         Module.
                       </p>
@@ -498,10 +506,11 @@ float:left;
                     <div class="card-body">
                       <h5 class="card-title">Digiboard – the digital blackboard</h5>
                       <p class="card-text">Digiboard is our idea on how a digital blackboard could look like. We think
-                        that with our solution of a blackboard the neighborhood community gets the possibility to be
-                        connected through sharing activities and food. We think that Digiboard is also beneficial for
-                        announcements from the property management which can save them time, paper, and CO2 emission
-                        through simply posting something on Digiboard.</p>
+                        that with our solution of a blackboard the neighbourhood community gets the possibility to be
+                        connected through common activities and sharing food. According to our opinion Digiboard is also beneficial for
+                        announcements from the property management which can save them time, paper, and CO2 emission by
+                        
+                      simply posting something on Digiboard.</p>
                     </div>
                   </div>
                 </div>
@@ -519,10 +528,9 @@ float:left;
                       <h5 class="card-title">A Tweeting door – an IoT alarm system</h5>
                       <p class="card-text">In this project we used an ultra-sonic sensor to monitor if a door gets
                         opened.
-                        If the distance from the sensor to the door changes, we send a signal to an Arduino connected to
+                        If the distance from the sensor to the door changes, it sends a signal to an Arduino connected to
                         a
-                        laptop which will create a new twitter post indicating the time of opening or closing of the
-                        door.
+                        laptop which will create a new twitter post indicating the time the door opened or closed.
                       </p>
                     </div>
                   </div>
